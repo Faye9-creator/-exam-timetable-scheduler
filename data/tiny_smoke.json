@@ -1,0 +1,381 @@
+{
+  "rooms": [
+    {
+      "room_id": "R1",
+      "room_name": "Hall 1",
+      "capacity": 30
+    },
+    {
+      "room_id": "R2",
+      "room_name": "Hall 2",
+      "capacity": 30
+    }
+  ],
+  "timeslots": [
+    {
+      "slot_id": "T1",
+      "day": "Monday",
+      "start_time": "09:00",
+      "end_time": "12:00"
+    },
+    {
+      "slot_id": "T2",
+      "day": "Monday",
+      "start_time": "14:00",
+      "end_time": "17:00"
+    },
+    {
+      "slot_id": "T3",
+      "day": "Tuesday",
+      "start_time": "09:00",
+      "end_time": "12:00"
+    },
+    {
+      "slot_id": "T4",
+      "day": "Tuesday",
+      "start_time": "14:00",
+      "end_time": "17:00"
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "CS101",
+      "course_name": "Module 1",
+      "student_count": 17
+    },
+    {
+      "course_id": "CS102",
+      "course_name": "Module 2",
+      "student_count": 18
+    },
+    {
+      "course_id": "CS103",
+      "course_name": "Module 3",
+      "student_count": 16
+    },
+    {
+      "course_id": "CS104",
+      "course_name": "Module 4",
+      "student_count": 15
+    },
+    {
+      "course_id": "CS105",
+      "course_name": "Module 5",
+      "student_count": 12
+    }
+  ],
+  "enrollments": [
+    {
+      "student_id": "STU_001",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_001",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_001",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_001",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_001",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_002",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_002",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_002",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_002",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_002",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_003",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_003",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_003",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_004",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_004",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_004",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_004",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_004",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_005",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_005",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_005",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_006",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_006",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_006",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_007",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_007",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_007",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_008",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_008",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_008",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_009",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_009",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_009",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_009",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_010",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_010",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_010",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_010",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_010",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_011",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_011",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_011",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_011",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_011",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_012",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_012",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_012",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_013",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_013",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_013",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_013",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_014",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_014",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_014",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_014",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_015",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_015",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_015",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_015",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_015",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_016",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_016",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_016",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_016",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_017",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_017",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_017",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_018",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_018",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_018",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_018",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_019",
+      "course_id": "CS104"
+    },
+    {
+      "student_id": "STU_019",
+      "course_id": "CS105"
+    },
+    {
+      "student_id": "STU_019",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_020",
+      "course_id": "CS102"
+    },
+    {
+      "student_id": "STU_020",
+      "course_id": "CS103"
+    },
+    {
+      "student_id": "STU_020",
+      "course_id": "CS101"
+    },
+    {
+      "student_id": "STU_020",
+      "course_id": "CS104"
+    }
+  ]
+}
